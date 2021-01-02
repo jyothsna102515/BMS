@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="container">
+    <form action="/action_page.php" method="post">
+    <div class="loginformcontainer">
+        <div class="imgcontainer">
+            <img src="img/IOT-Icon.png" alt="Logo" class="siteLogo">
+        </div>
+        <div class="usernameblock">
+            <label for="uname"><b>Username or Email Address</b></label>
+            <div class="inputblock">
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <span class="symbol-input">
+                   <img class="usernameImage" src="img/username-icon.png">
+                </span>
+            </div>
+       </div>
+       <div class="pswblock">
+            <label for="psw"><b>Password</b></label>
+            <div class="inputblock">
+                <input type="password" placeholder="**********" name="psw" required>
+                <span class="symbol-input">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+        <button type="submit">Sign In</button>
+        <label>
+            <span class="psw"> <a href="#">Forgot password?</a></span>
+        </label>
+    </div>
+
+    </form>
+</div>
+</body>
+</html>
